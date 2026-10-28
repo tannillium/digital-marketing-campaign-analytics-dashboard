@@ -1,0 +1,16 @@
+{
+  "name": "marketing-analytics-dashboard",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": { "dev": "vite", "build": "vite build", "preview": "vite preview", "test:backend": "python3 -m pytest backend/tests" },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "recharts": "latest"
+  },
+  "devDependencies": {}
+}
